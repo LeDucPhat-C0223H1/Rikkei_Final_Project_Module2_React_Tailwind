@@ -1,0 +1,363 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "admin",
+      "password": "123",
+      "isAdmin": true,
+      "fullName": "Tino Phan",
+      "email": "tino@gmail.com",
+      "avatar": "https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/318102257_1109819223043757_1103285568524116497_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_ohc=oMQmGXJxndgAX8oPSL5&_nc_ht=scontent.fsgn5-5.fna&oh=00_AfCQNPdBrQ2pyExJ9MY_SNcHskHV46pzQVac2ifpfDKM1Q&oe=64ECBF33",
+      "carts": []
+    },
+    {
+      "id": 2,
+      "userName": "shadowking10",
+      "password": "123qazqaz",
+      "isAdmin": false,
+      "fullName": "Cao Hải Anh",
+      "email": "shadowking11@gmail.com",
+      "avatar": "https://scontent.fsgn5-8.fna.fbcdn.net/v/t1.18169-9/18199424_1127618630716760_351675297519525779_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=EwGMRJ_3RkIAX-Q0Jkm&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfCdHlLyCy7At9ljWrrgdYiYYOtpjP4BoFzTUFNbHQQelQ&oe=650E8AED",
+      "carts": []
+    },
+    {
+      "id": 245,
+      "userName": "shadowking11",
+      "password": "123qazqaz",
+      "isAdmin": false,
+      "fullName": "Nguyễn Hy Văn",
+      "email": "shadowking11@gmail.com",
+      "avatar": "https://i.pinimg.com/280x280_RS/0f/de/63/0fde63193f9f0bc8c967959eb476edb3.jpg",
+      "cart": []
+    },
+    {
+      "id": 7628,
+      "userName": "shadowking12",
+      "password": "123qazqaz",
+      "isAdmin": false,
+      "fullName": "Võ Hoàng Châu",
+      "email": "shadowking12@gmail.com",
+      "avatar": "https://i.pinimg.com/236x/61/43/cf/6143cfbeb2551f39d00f9d541b42a99e.jpg",
+      "cart": []
+    },
+    {
+      "id": 3293,
+      "userName": "shadowking23",
+      "password": "123qazqaz",
+      "isAdmin": false,
+      "fullName": "Lê Đức Phát",
+      "email": "shadowking23@gmail.com",
+      "avatar": "https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/373652667_4582485921977469_4057109381170529568_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=jsN5eNkLLYcAX8m8A_b&_nc_ht=scontent.fsgn2-9.fna&oh=00_AfA2k5JizzXn8wcNJ_vjOXnGkjlbdBiFR05hTlaIvST_MA&oe=64FD6784",
+      "cart": []
+    },
+    {
+      "id": 86,
+      "userName": "shadowking24",
+      "password": "123qazqaz",
+      "isAdmin": false,
+      "fullName": "Kencho",
+      "email": "shadowking24@gmail.com",
+      "avatar": "",
+      "cart": []
+    }
+  ],
+  "products": [
+    {
+      "productId": 1,
+      "gender": "juice",
+      "name": "Cup Of Day",
+      "desc": "Dâu",
+      "price": 42000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FJ1.png?alt=media&token=51045b2a-5d97-4a50-a13a-471525248788",
+      "quantity": 1
+    },
+    {
+      "productId": 2,
+      "gender": "juice",
+      "name": "Pick Me Up",
+      "desc": "Kiwi",
+      "price": 44000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FJ2.png?alt=media&token=0ebc0b68-5b91-4459-a725-a2e04e444032",
+      "quantity": 1
+    },
+    {
+      "productId": 3,
+      "gender": "juice",
+      "name": "Greece'S Wind",
+      "desc": "Táo",
+      "price": 46000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FJ3.png?alt=media&token=422dda97-f162-4221-9b68-e26e9257d3c2",
+      "quantity": 1
+    },
+    {
+      "productId": 4,
+      "gender": "juice",
+      "name": "Sexy Me",
+      "desc": "Chanh Dây, Táo, Dừa 153/187 Kcal",
+      "price": 42000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FJ4.png?alt=media&token=2aa4c3e2-21e6-47ba-ae64-60d3f37b4a45",
+      "quantity": 1
+    },
+    {
+      "productId": 5,
+      "gender": "juice",
+      "name": "Mind Blowing",
+      "desc": "Dừa, Chanh Dây, Chanh 111/140 Kcal",
+      "price": 44000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FJ5.png?alt=media&token=addfab44-e3c4-4b28-8bb4-054862f50e69",
+      "quantity": 1
+    },
+    {
+      "productId": 6,
+      "gender": "juice",
+      "name": "Adie-De-Camp",
+      "desc": "Dứa, Táo, Cà Rốt 200/268 Kcal",
+      "price": 46000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FJ6.png?alt=media&token=6bc38c9b-c6ea-4e10-8748-914d26b6a938",
+      "quantity": 1
+    },
+    {
+      "productId": 7,
+      "gender": "juice",
+      "name": "Vegie Depot",
+      "desc": "Cam, Cà rốt, Dưa leo, Chanh, Bạc hà 119/158 Kcal",
+      "price": 42000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FJ7.png?alt=media&token=ca098120-9604-4cfe-a5ea-f11d5c1ab303",
+      "quantity": 1
+    },
+    {
+      "productId": 8,
+      "gender": "juice",
+      "name": "Juice Lover",
+      "desc": "Dứa, Táo, Cà Rốt 122/150 Kcal",
+      "price": 44000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FJ8.png?alt=media&token=67095a63-f72d-4357-bf48-987a6170eb2f",
+      "quantity": 1
+    },
+    {
+      "productId": 9,
+      "gender": "juice",
+      "name": "Balance Control",
+      "desc": "Dứa, Táo, Cà Rốt 149/210 kcal",
+      "price": 46000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FJ9.png?alt=media&token=5b016329-0a1a-4421-85d8-b9f26d992690",
+      "quantity": 1
+    },
+    {
+      "productId": 10,
+      "gender": "shake",
+      "name": "Cheetah Shake",
+      "desc": "Dâu, Chuối, Sữa Tươi 102/155 Kcal",
+      "price": 45000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FS1.png?alt=media&token=de352d83-7f0b-4c39-a0fb-98afddbbc39e",
+      "quantity": 1
+    },
+    {
+      "productId": 11,
+      "gender": "shake",
+      "name": "Re-Boost",
+      "desc": "Chuối, Bơ đậu phộng, Sô cô la, Sữa tươi 178/234 Kcal",
+      "price": 47000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FS2.png?alt=media&token=1de91e34-2bcb-4c50-80b3-e1d5133985a7",
+      "quantity": 1
+    },
+    {
+      "productId": 12,
+      "gender": "shake",
+      "name": "Shake It Up",
+      "desc": "Bơ, Chuối, Sữa tươi 251/350 Kcal",
+      "price": 49000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FS3.png?alt=media&token=912d4171-9514-489f-8c47-5db27280e949",
+      "quantity": 1
+    },
+    {
+      "productId": 13,
+      "gender": "shake",
+      "name": "Avoca Shake",
+      "desc": "Bơ, Sữa đặc, Sữa tươi 338/450 Kcal",
+      "price": 45000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FS4.png?alt=media&token=28e4eaca-b77a-4023-bf30-ce11808fba51",
+      "quantity": 1
+    },
+    {
+      "productId": 14,
+      "gender": "shake",
+      "name": "Bravocado",
+      "desc": "Bơ, Espresso, Sữa tươi 162/268 Kcal",
+      "price": 47000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FS5.png?alt=media&token=f0d1f490-8536-44f9-a1cc-c650538a3274",
+      "quantity": 1
+    },
+    {
+      "productId": 15,
+      "gender": "shake",
+      "name": "Battery Boost",
+      "desc": "Bơ, Chuối, Dâu, Sữa tươi 178/273 Kcal",
+      "price": 49000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FS6.png?alt=media&token=3cff8c71-12ff-4d44-93fa-2a5c180d413f",
+      "quantity": 1
+    },
+    {
+      "productId": 16,
+      "gender": "shake",
+      "name": "Mangonificient",
+      "desc": "Xoài, Chanh dây, Dừa 132/255 Kcal",
+      "price": 45000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FS7.png?alt=media&token=9fb8ed63-e378-4db0-8ddf-4638f3b7c8c9",
+      "quantity": 1
+    },
+    {
+      "productId": 17,
+      "gender": "shake",
+      "name": "Undercut",
+      "desc": "Xoài, Dâu, Sữa chua, Sữa tươi 150/233 Kcal",
+      "price": 47000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FS8.png?alt=media&token=a0beab76-509d-49ef-9d7c-a3b7a8c50337",
+      "quantity": 1
+    },
+    {
+      "productId": 18,
+      "gender": "shake",
+      "name": "Earthshaker",
+      "desc": "Xoài, Chuối, Sữa tươi 138/193 Kcal",
+      "price": 49000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FS9.png?alt=media&token=b445349e-4684-4c4e-a1e4-218b69e911cd",
+      "quantity": 1
+    },
+    {
+      "productId": 19,
+      "gender": "veggie",
+      "name": "Green Shots",
+      "desc": "Cần tây, Cải xoăn, Táo, Dưa leo 196/256 Kcal",
+      "price": 48000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FV1.png?alt=media&token=f6c586d6-e12b-4eb0-b08f-1de8de8eb008",
+      "quantity": 1
+    },
+    {
+      "productId": 20,
+      "gender": "veggie",
+      "name": "The Citrus",
+      "desc": "Cần tây, Cam, Dưa leo, Chanh 108/148 Kcal",
+      "price": 50000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FV2.png?alt=media&token=ebe9ee32-bca4-46da-ac9e-1f153f7b27c9",
+      "quantity": 1
+    },
+    {
+      "productId": 21,
+      "gender": "veggie",
+      "name": "Kale Yeah!",
+      "desc": "Cải xoăn, Dứa, Táo 224/315 Kcal",
+      "price": 52000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FV3.png?alt=media&token=e2bab167-f0c7-4444-9d2f-7ecc396454b2",
+      "quantity": 1
+    },
+    {
+      "productId": 22,
+      "gender": "veggie",
+      "name": "Anti-Doc",
+      "desc": "Cải xoăn, Gừng, Cà rốt, Cam 169/210 Kcal",
+      "price": 48000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FV4.png?alt=media&token=7d6f3225-e7d4-440b-bd02-82148bbd28a1",
+      "quantity": 1
+    },
+    {
+      "productId": 23,
+      "gender": "veggie",
+      "name": "The Shield",
+      "desc": "Dền, Táo, Cần tây, Gừng, Dưa leo 139/179 Kcal",
+      "price": 50000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FV5.png?alt=media&token=e6890c9d-0be8-48de-ad02-d1b476b8ba81",
+      "quantity": 1
+    },
+    {
+      "productId": 24,
+      "gender": "veggie",
+      "name": "The Protector",
+      "desc": "Gừng, Táo, Cà rốt, Dứa 215/277 Kcal",
+      "price": 52000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FV6.png?alt=media&token=5d84580d-187b-4787-9f46-89952601e02a",
+      "quantity": 1
+    },
+    {
+      "productId": 25,
+      "gender": "tea",
+      "name": "Hot)_Classic Red Tea",
+      "desc": "(Trà nóng) Hồng trà",
+      "price": 36000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FT(Hot).png?alt=media&token=d8a277bc-457e-41e7-9895-ff78317ac129",
+      "quantity": 1
+    },
+    {
+      "productId": 26,
+      "gender": "tea",
+      "name": "Hot)_Classic Jasmine Tea",
+      "desc": "(Trà nóng) Trà lài",
+      "price": 38000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FT(Hot).png?alt=media&token=d8a277bc-457e-41e7-9895-ff78317ac129",
+      "quantity": 1
+    },
+    {
+      "productId": 27,
+      "gender": "tea",
+      "name": "Hot)_Classic Oolong Tea",
+      "desc": "(Trà nóng) Trà Oolong",
+      "price": 40000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FT(Hot).png?alt=media&token=d8a277bc-457e-41e7-9895-ff78317ac129",
+      "quantity": 1
+    },
+    {
+      "productId": 28,
+      "gender": "tea",
+      "name": "Melon Green Tea",
+      "desc": "Lục trà dưa lưới",
+      "price": 41000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FT4.png?alt=media&token=877b22ff-a8f8-44f1-9c67-71761c98e95a",
+      "quantity": 1
+    },
+    {
+      "productId": 29,
+      "gender": "tea",
+      "name": "Yakult Grreen Tea",
+      "desc": "Lục trà Yakult",
+      "price": 43000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FT5.png?alt=media&token=a6ecae6e-a9b6-4814-a495-68b9375caf91",
+      "quantity": 1
+    },
+    {
+      "productId": 30,
+      "gender": "tea",
+      "name": "Honey Green Tea",
+      "desc": "Lục trà mật ong",
+      "price": 45000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FT6.png?alt=media&token=93c64349-ac15-4d7f-81fa-2175ebd9003c",
+      "quantity": 1
+    },
+    {
+      "productId": 31,
+      "gender": "tea",
+      "name": "Honey Oolong Tea",
+      "desc": "Oolong mật ong",
+      "price": 41000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FT7.png?alt=media&token=1f574051-ec2b-4d3d-b9d8-80c4774292f4",
+      "quantity": 1
+    },
+    {
+      "productId": 32,
+      "gender": "tea",
+      "name": "Passionfruit Green Tea",
+      "desc": "Lục trà Chanh Dây",
+      "price": 43000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FT8.png?alt=media&token=174d56db-43b9-4df6-832a-7e63c18095d8",
+      "quantity": 1
+    },
+    {
+      "productId": 33,
+      "gender": "tea",
+      "name": "Strawberry Orange Green Tea",
+      "desc": "Lục Trà Dâu Cam",
+      "price": 45000,
+      "image": "https://firebasestorage.googleapis.com/v0/b/final-project-react-fcc98.appspot.com/o/images%2FT9.png?alt=media&token=e3ab908e-d507-42fa-b3df-7ff9679d5021",
+      "quantity": 1
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+.carousel {
+    height: 463px;
+    background-color: #fff;
+    background-image: url("../../assets/carousel__banner.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    padding: 0px 133px;
+    margin-bottom: 20px;
+  }
+  
+  .carousel__box--left,
+  .carousel__box--right {
+    width: 50%;
+  }
+  
+  .carousel__box--left {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .carousel__box--left
+  .carousel__img-bottle {
+    width: 300px;
+    margin-left: 120px;
+    rotate: 17deg;
+    animation: juice-bottle--animation 4s infinite linear;
+  }
+  
+  @keyframes juice-bottle--animation {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  .carousel__box--left
+  .carousel__img-strawberry {
+    width: 80px;
+    position: absolute;
+    right: 20px;
+    bottom: 35px;
+    transition: all 0.15s ease-in;
+    animation: strawberry--animation 2s infinite linear;
+  }
+  
+  @keyframes strawberry--animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: rotate(2);
+    }
+  }
+  
+  .carousel__box--right
+  .carousel__img-orange {
+    width: 80px;
+    margin-left: 200px;
+    margin-top: 20px;
+    animation: lemon--animation 2s infinite linear;
+  }
+  
+  @keyframes lemon--animation {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .carousel__box--right
+  .carousel__content {
+    margin-top: 110px;
+    margin-left: 110px;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 60px;
+  }
+  
+  /* animation carousel__content-first*/
+  .carousel__box--right .carousel__content-first span {
+    display: inline-block;
+  }
+  .carousel__content-first span:nth-child(1) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0s;
+  }
+  
+  .carousel__content-first span:nth-child(2) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.1s;
+  }
+  
+  .carousel__content-first span:nth-child(3) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.2s;
+  }
+  
+  .carousel__content-first span:nth-child(4) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.3s;
+  }
+  
+  .carousel__content-first span:nth-child(5) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.4s;
+  }
+  
+  .carousel__content-first span:nth-child(6) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.5s;
+  }
+  
+  .carousel__content-first span:nth-child(7) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.6s;
+  }
+  
+  .carousel__content-first span:nth-child(8) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.7s;
+  }
+  
+  /* animation carousel__content-second*/
+  .carousel__box--right .carousel__content-second span {
+    display: inline-block;
+  }
+  
+  .carousel__content-second span:nth-child(1) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0s;
+  }
+  
+  .carousel__content-second span:nth-child(2) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.1s;
+  }
+  
+  .carousel__content-second span:nth-child(3) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.2s;
+  }
+  
+  .carousel__content-second span:nth-child(4) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.3s;
+  }
+  
+  .carousel__content-second span:nth-child(5) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.4s;
+  }
+  
+  .carousel__content-second span:nth-child(6) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.5s;
+  }
+  
+  .carousel__content-second span:nth-child(7) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.6s;
+  }
+  
+  .carousel__content-second span:nth-child(8) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.7s;
+  }
+  
+  .carousel__content-second span:nth-child(9) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.8s;
+  }
+  
+  .carousel__content-second span:nth-child(10) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 0.9s;
+  }
+  
+  .carousel__content-second span:nth-child(11) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 1s;
+  }
+  
+  .carousel__content-second span:nth-child(12) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 1.1s;
+  }
+  
+  .carousel__content-second span:nth-child(13) {
+    animation: wave-text 1.6s ease-in-out infinite;
+    animation-delay: 1.2s;
+  }
+  
+  @keyframes wave-text {
+    0% {
+      transform: translateY(0em);
+    }
+    60% {
+      transform: translateY(-0.6em);
+    }
+    100% {
+      transform: translateY(0em);
+    }
+  }
+  
